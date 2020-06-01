@@ -1,7 +1,7 @@
  import   './layout.module.scss';
  import Link from 'next/link'
 import Head from 'next/head'
-
+import Footer from '../components/footer';
 export default function Layout({
   children,
   title = 'This is the default title'
@@ -22,9 +22,7 @@ export default function Layout({
 
      
 
-      <footer>
-          this is footer
-      </footer>
+  <Footer/>
     </>
   )
 }
